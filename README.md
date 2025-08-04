@@ -1,4 +1,4 @@
-# Emotional Cartography: A Spring Walk Through Central Park
+# A Spring Walk Through Central Park
 
 The first day I take data journalism course, I am wondering — how can I combine emotional expression with dataviz or visual perception. And this is the first time I approach to it. I spent a spring morning with my friends, shooting video and walking around Central Park. And record all my nonsense feeling. For the data viz part, I first scrape the location and description on Central Park.com and then use a storytelling template from MapBox: https://github.com/mapbox/storytelling.
 
@@ -6,7 +6,7 @@ The first day I take data journalism course, I am wondering — how can I combin
 
 This interactive story map weaves together:
 - **Location data**: Scraped from Central Park's official website
-- **Personal narrative**: Our recorded thoughts and feelings from that morning
+- **Personal narrative**: My thoughts and feelings from that morning
 - **Visual storytelling**: Using MapBox's storytelling template to create an immersive experience
 
 ## Technical Details
@@ -17,30 +17,11 @@ This interactive story map weaves together:
 
 ## The Experiment
 
-This project sits at the intersection of:
-- Data journalism techniques
-- Personal narrative storytelling  
-- Interactive web mapping
-- Emotional geography
-
 It's an attempt to answer whether data visualization can carry not just information, but feeling—whether we can map not just where we went, but how it felt to be there.
 
 ## View the Project
 
-[Link to live demo] <!-- Add your project URL here -->
-
-## Running Locally
-
-```bash
-# Clone the repository
-git clone [your-repo-url]
-
-# Navigate to project directory
-cd [project-name]
-
-# Open index.html in your browser
-# or serve with a local server
-```
+[Link to live demo] <!-- [Add your project URL here](https://gracejiang0612.github.io/cherrybloom/) -->
 
 ## Built With
 
@@ -49,7 +30,7 @@ cd [project-name]
 
 ## What I Learned
 
-This was my first foray into combining subjective experience with objective data. The challenge wasn't just technical—it was figuring out how to make data feel human, and how to make feelings feel mappable.
+The challenge wasn't just technical—it was figuring out how to make dataviz along with words.
 
 ---
 
