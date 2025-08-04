@@ -26,4 +26,5 @@ You can visit my site here: https://gracejiang0612.github.io/cherrybloom/
 ## Built With
 
 - MapBox GL JS
-- [Other technologies you used]
+- HTML
+- Python
