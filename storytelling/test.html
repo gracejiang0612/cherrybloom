@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapbox Token Test</title>
+</head>
+<body>
+    <h1>Mapbox Token Test</h1>
+    <div id="result"></div>
+    
+    <script src="./env-loader.js"></script>
+    <script>
+        // Test if the token is loaded
+        if (window.MAPBOX_ACCESS_TOKEN) {
+            document.getElementById('result').innerHTML = 
+                '<p style="color: green;">✅ Token loaded successfully!</p>' +
+                '<p>Token: ' + window.MAPBOX_ACCESS_TOKEN.substring(0, 20) + '...</p>';
+        } else {
+            document.getElementById('result').innerHTML = 
+                '<p style="color: red;">❌ Token not loaded!</p>';
+        }
+    </script>
+</body>
+</html> 
