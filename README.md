@@ -21,7 +21,7 @@ It's an attempt to answer whether data visualization can carry not just informat
 
 ## View the Project
 
-[Link to live demo] <!-- [Add your project URL here](https://gracejiang0612.github.io/cherrybloom/) -->
+You can visit my site here: https://gracejiang0612.github.io/cherrybloom/
 
 ## Built With
 
