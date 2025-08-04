@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Must Have Walked Into New York&rsquo;s Spring | Grace Jiang - Data Journalism</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="tab.png">
+    <link rel="shortcut icon" type="image/png" href="tab.png">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="From London courtrooms to Chinese social media, survivors of rape are finding their pain exploited by black-market ads spreading unchecked on X and illegal websites.">
+    <meta name="keywords" content="sexual assault, digital exploitation, social media, X platform, black market, voyeurism, revenge porn, 91Porn, Chinese internet, online safety">
+    <meta name="author" content="Grace Jiang">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="She Testified Against a Rapist. Then She Became an Advertisement.">
+    <meta property="og:description" content="From London courtrooms to Chinese social media, survivors of rape are finding their pain exploited by black-market ads spreading unchecked on X and illegal websites.">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Grace Jiang - Data Journalism">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@gracejiang0612">
+    <meta name="twitter:title" content="She Testified Against a Rapist. Then She Became an Advertisement.">
+    <meta name="twitter:description" content="From London courtrooms to Chinese social media, survivors of rape are finding their pain exploited by black-market ads spreading unchecked on X and illegal websites.">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "headline": "She Testified Against a Rapist. Then She Became an Advertisement.",
+        "description": "From London courtrooms to Chinese social media, survivors of rape are finding their pain exploited by black-market ads spreading unchecked on X and illegal websites.",
+        "author": {
+            "@type": "Person",
+            "name": "Grace Jiang"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Grace Jiang - Data Journalism"
+        },
+        "keywords": ["sexual assault", "digital exploitation", "social media", "X platform", "black market", "voyeurism", "revenge porn", "91Porn", "Chinese internet", "online safety"],
+        "datePublished": "2025-01-27",
+        "dateModified": "2025-01-27"
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            line-height: 1.7;
+            color: #000;
+            background-color: #fff;
+        }
+        
+        /* Header Section */
+        .header {
+            display: flex;
+            align-items: stretch;
+            min-height: 80vh;
+            gap: 0;
+        }
+        
+        .header-video {
+            flex: 0 0 60%;
+            align-self: stretch;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .header-video {
+            position: relative;
+        }
+        
+        .header-video video {
+            width: 100%;
+            height: 85vh;
+            object-fit: cover;
+            object-position: center;
+            margin: 0;
+            padding: 0;
+            transform: scale(1.05);
+        }
+        
+        .header-video video::-webkit-media-controls {
+            opacity: 0.7;
+        }
+        
+        .header-video video::-webkit-media-controls:hover {
+            opacity: 1;
+        }
+        
+        /* Custom audio toggle button */
+        .audio-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s ease;
+            z-index: 10;
+        }
+        
+        .audio-toggle:hover {
+            background: rgba(0, 0, 0, 0.9);
+        }
+        
+        /* Cherry Blossom Map Styling */
+        .cherry-blossom-map {
+            margin: 40px 0;
+        }
+        
+        .cherry-blossom-map iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .map-caption {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 0.9em;
+            font-style: italic;
+            color: #666;
+            text-align: center;
+            margin: 15px 0;
+            padding: 0 20px;
+        }
+        
+        .map-source {
+            font-family: Arial, sans-serif;
+            font-size: 0.8em;
+            font-style: normal;
+            color: #888;
+            margin-top: 5px;
+            display: inline-block;
+        }
+        
+        /* Embedded Video Styling */
+        .embedded-video {
+            margin: 40px 0;
+        }
+        
+        .embedded-video video {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .header-content {
+            flex: 1;
+            padding: 60px 40px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #fff;
+        }
+        
+        /* Content Container */
+        .content {
+            max-width: 800px;
+            margin: 40px auto 30px auto;
+            padding: 0 60px;
+        }
+        
+        .content p {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 1.1em;
+            line-height: 1.7;
+            color: #000;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        
+        /* Typography */
+        h1 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 3.2em;
+            font-weight: normal;
+            line-height: 1.1;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .deck {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 1.4em;
+            font-weight: 300;
+            color: #444;
+            line-height: 1.4;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .byline {
+            font-family: Arial, sans-serif;
+            font-size: 1em;
+            color: #888;
+            margin: 30px auto 50px auto;
+            padding: 0 60px;
+            max-width: 800px;
+            text-align: left;
+        }
+        
+        .byline a {
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .byline a:hover {
+            color: #1a0dab;
+            text-decoration: underline;
+        }
+        
+        .publish-date {
+            font-family: Arial, sans-serif;
+            font-size: 0.8em;
+            color: #999;
+            margin-top: 5px;
+        }
+        
+        /* Story Content */
+        .story-content {
+            max-width: 800px;
+            margin: 40px auto 30px auto;
+            padding: 0 60px;
+        }
+        
+        .story-content p {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 1.1em;
+            line-height: 1.7;
+            color: #000;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        
+        .story-content h2 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 2em;
+            font-weight: normal;
+            margin: 40px 0 20px 0;
+            text-align: center;
+        }
+        
+        .story-content h3 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 1.5em;
+            font-weight: normal;
+            margin: 30px 0 15px 0;
+            text-align: center;
+        }
+        
+        /* Image Captions */
+        .image-caption {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 0.9em;
+            font-style: italic;
+            color: #666;
+            text-align: center;
+            margin: 20px 0;
+            padding: 0 20px;
+        }
+        
+        /* Links */
+        a {
+            color: #1a0dab;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: #c0392b;
+            text-decoration: underline;
+        }
+        
+        /* Section Breaks */
+        .section-break {
+            color: #999;
+            font-size: 1.2em;
+            letter-spacing: 0.5em;
+            margin: 40px 0;
+            text-align: center;
+        }
+        
+        /* Author Bio */
+        .author-bio {
+            font-family: Arial, sans-serif;
+            font-size: 0.95em;
+            color: #666;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            line-height: 1.6;
+        }
+        
+        .author-bio a {
+            color: #1a0dab;
+            font-weight: bold;
+        }
+        
+        .author-bio a:hover {
+            color: #c0392b;
+            text-decoration: underline;
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 600px) {
+            .header {
+                flex-direction: column;
+            }
+            
+            .header-content {
+                padding: 30px 20px;
+                margin: 0;
+            }
+            
+            .header-video video {
+                height: 50vh;
+            }
+            
+            h1 {
+                font-size: 2.2em;
+            }
+            
+            .deck {
+                font-size: 1.2em;
+            }
+            
+            .byline {
+                font-size: 0.9em;
+                padding: 0 30px;
+            }
+            
+            .publish-date {
+                font-size: 0.7em;
+            }
+            
+            .story-content {
+                padding: 0 30px;
+            }
+            
+            .content {
+                padding: 0 30px;
+            }
+            
+            .byline {
+                padding: 0 30px;
+            }
+            
+            .cherry-blossom-map iframe {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>You Must Have Walked Into New York&rsquo;s Spring</h1>
+            <div class="deck">A prose piece with video and data visualization. I am trying to combine the fusion of emotional description and visual perception.</div>
+        </div>
+        <div class="header-video">
+            <video id="headerVideo" autoplay loop playsinline preload="auto" style="margin: 0; padding: 0;">
+                <source src="project4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <button id="audioToggle" class="audio-toggle" title="Mute Audio">
+                🔊
+            </button>
+        </div>
+    </header>
+
+    <div class="byline">
+        <p>By <a href="https://gracejiang0612.github.io/">Grace Jiang</a></p>
+        <div class="publish-date">April 20, 2025</div>
+    </div>
+
+    <div class="content">
+        <p>After all the wild, unpredictable weather, it finally feels like spring is settling over the city.</p>
+        
+        <p>For me, the feeling of spring always starts with the plants. After spending three years in Madison, where the seasons often blurred together, I still found that spring had a way of quietly, stubbornly making itself known in New York City.</p>
+        
+        <p>The trees lining the streets have taken on subtle new shades. The branches overhead have grown dense and full, a mix of fresh, bright greens and deeper, older greens, like enormous umbrellas stretched between the ground and sky. They breathe and sway with the spring breeze, pulsing with life.</p>
+        
+        <p>Among all this green, flowers of every kind are beginning to compete for attention. The cherry blossoms spreading through the parks, the vibrant crabapples exploding along the sidewalks &mdash; all adding color to the season. The air carries the scent of grass and flowers, and stepping outside feels like walking through a city quietly overflowing with spring, its traces tucked into every crack and corner between the buildings.</p>
+    </div>
+
+    <div class="content">
+        <div class="cherry-blossom-map">
+            <iframe src="storytelling/index.html" 
+                    width="100%" 
+                    height="600px" 
+                    frameborder="0" 
+                    style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </iframe>
+            <div class="map-caption">
+                <em>Interactive map: Explore the best cherry blossom viewing spots in Central Park</em><br>
+                <span class="map-source">Source: Central Park.com</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <p>And then there are the people, some, after a long winter&rsquo;s rest, beginning to stir like seeds breaking through the soil, ready to move again, ready to grow. I&rsquo;ve always felt that spring and autumn are the seasons when humans feel closest to nature, when we can&rsquo;t help but reach out to touch a tender new leaf or catch a falling one. There&rsquo;s something about these seasons, in the soil, the plants, the air itself &mdash; that mirrors the rhythms of life, rising and falling, starting and returning.</p>
+        
+        <p>Watching spring arrive in this foreign city, I can&rsquo;t help but think of spring back home.</p>
+    </div>
+
+
+    <div class="content">
+        <p>I&rsquo;m from Chengdu, China, a place often described as a city of eternal spring. Surrounded by mountains and nestled in a basin, Chengdu&rsquo;s geography traps moisture and mist, making it a very humid place. But it&rsquo;s this humidity that gives life to lush plants, especially bamboo which is why Chengdu is also known as the home of pandas.</p>
+        
+        <p>The only downside? There aren&rsquo;t many sunny days.</p>
+        
+        <p>But when the sun does come out in spring, people grow out from the grass and the parks. No one&rsquo;s in a hurry. People sip tea, bask in the sunlight, and do absolutely nothing. Everyone says: no one knows how to enjoy life quite like the people of Chengdu.</p>
+        
+        <p>It was also in spring that I received my offer to study in the U.S. for undergraduate. Back then, my understanding of the other side of the world was hazy at best. The America I saw in the news was full of shootings and chaos. But my sister, who had studied abroad there, told me, &ldquo;People there are actually really kind.&rdquo; It was all conflicting, all unfamiliar &mdash; curiosity mixed with nervousness and anticipation. Everything felt brand new. Just like plants quietly waiting for a brand new spring.</p>
+        
+        <p>This spring, I&rsquo;ve had my head down, buried in assignments. It&rsquo;s my first year in grad school, something I never imagined, studying data journalism at Columbia. Spring here is just as beautiful as it is back home. Sunny spring days feel just as rare and precious. Walking down the streets, I keep thinking I should really find time to have a picnic with friends in Central Park, take some pictures, slow down a little.</p>
+    </div>
+
+    <div class="content">
+        <div class="embedded-video">
+            <video autoplay muted loop playsinline controls style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+                <source src="PROJECT42.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <div class="content">
+        <p>After living in the U.S. for four years, I&rsquo;m still just as naive, still just as curious about the future. But lately, the protests on Columbia&rsquo;s campus, the unrest in the world and the uncertainty of the future have forced me to confront reality in a way I never had to before. I&rsquo;ve started to feel a kind of uneasiness, even fear, that I didn&rsquo;t used to carry.</p>
+        
+        <p>Once this spring passes, I&rsquo;ll have only one semester left until graduation. And like it or not, I won&rsquo;t be a kid anymore.</p>
+    </div>
+
+    <div class="footer">
+        <div class="content">
+            <p>Interest in the project? Follow the code behind the scene. <a href="https://github.com/gracejiang0612">GitHub</a>.</p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const video = document.getElementById('headerVideo');
+            const audioToggle = document.getElementById('audioToggle');
+            
+            // Set initial audio state
+            video.volume = 0.7; // Set to 70% volume
+            
+            // Simple one-time play attempt
+            setTimeout(function() {
+                video.play().catch(function(error) {
+                    console.log('Autoplay blocked, will play on user interaction');
+                    // If autoplay fails, mute and try once more
+                    video.muted = true;
+                    audioToggle.textContent = '🔇';
+                    audioToggle.title = 'Unmute Audio';
+                    video.play();
+                });
+            }, 500);
+            
+            // Audio toggle functionality
+            audioToggle.addEventListener('click', function() {
+                if (video.muted) {
+                    video.muted = false;
+                    audioToggle.textContent = '🔊';
+                    audioToggle.title = 'Mute Audio';
+                } else {
+                    video.muted = true;
+                    audioToggle.textContent = '🔇';
+                    audioToggle.title = 'Unmute Audio';
+                }
+            });
+            
+            // Handle video click to enable audio
+            video.addEventListener('click', function() {
+                if (video.muted) {
+                    video.muted = false;
+                    audioToggle.textContent = '🔊';
+                    audioToggle.title = 'Mute Audio';
+                }
+            });
+            
+            // Update button state if video is manually muted/unmuted
+            video.addEventListener('volumechange', function() {
+                if (video.muted) {
+                    audioToggle.textContent = '🔇';
+                    audioToggle.title = 'Click to Enable Audio';
+                } else {
+                    audioToggle.textContent = '🔊';
+                    audioToggle.title = 'Mute Audio';
+                }
+            });
+            
+            // Handle any user interaction to enable audio
+            document.addEventListener('click', function enableAudio() {
+                if (video.muted) {
+                    video.muted = false;
+                    audioToggle.textContent = '🔊';
+                    audioToggle.title = 'Mute Audio';
+                }
+                // Remove this listener after first interaction
+                document.removeEventListener('click', enableAudio);
+            }, { once: true });
+        });
+    </script>
+</body>
+</html>
