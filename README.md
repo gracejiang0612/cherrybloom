@@ -1,3 +1,5 @@
+Emotional Cartography: A Spring Walk Through Central Park
+Combining emotional expression with data visualization and visual perception
 About This Project
 On my first day of data journalism course, I found myself wondering: How can we combine emotional expression with data visualization? This project represents my initial exploration into that question.
 I spent a spring morning with friends, shooting video and wandering through Central Park, recording all the fleeting feelings and observations that came to mind. The goal was to capture not just the physical journey, but the emotional landscape of our experience.
@@ -41,4 +43,3 @@ MapBox GL JS
 
 What I Learned
 This was my first foray into combining subjective experience with objective data. The challenge wasn't just technical—it was figuring out how to make data feel human, and how to make feelings feel mappable.
-
