@@ -27,17 +27,3 @@ You can visit my site here: https://gracejiang0612.github.io/cherrybloom/
 
 - MapBox GL JS
 - [Other technologies you used]
-
-## What I Learned
-
-The challenge wasn't just technical—it was figuring out how to make dataviz along with words.
-
----
-
-*A project exploring the emotional dimensions of data storytelling*
-
-MapBox GL JS
-[Other technologies you used]
-
-What I Learned
-This was my first foray into combining subjective experience with objective data. The challenge wasn't just technical—it was figuring out how to make data feel human, and how to make feelings feel mappable.
